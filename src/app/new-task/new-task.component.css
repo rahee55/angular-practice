@@ -1,0 +1,21 @@
+.create-task-container{
+    margin: 0px;
+    padding: 100px 60px;
+    background-color: #1B1834;
+    text-align: center;
+}
+
+input{
+    width: 420px;
+    height: 33px;
+    padding: 5px 20px;
+    outline: none;
+}
+button{
+    height: 45px;
+    border: none;
+    background-color: #E7005E;
+    color: white;
+    padding: 0px 20px;
+    margin-left: 10px;
+}
