@@ -7,7 +7,7 @@ import { Subject } from 'rxjs';
 export class TaskServiceService {
   // CreateTask: EventEmitter<string> = new EventEmitter<string>();
 
-  CreateTask = new Subject<string>();
+  CreateTask = new Subject<string >();
   onCreateTask(value: string){
     this.CreateTask.next(value);
   }
